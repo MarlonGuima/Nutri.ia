@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Início</title>
+</head>
+<body>
+    <header id="quest">
+        <h2>Você já tem cadastro?</h2>
+    </header>
+    <div class="caixa-login">
+        <h2>Login</h2>
+        <form action="processa_login.php" method="post">
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="password" name="senha" placeholder="Senha" required>
+          <input type="submit" value="Entrar">
+        </form>
+      </div>
+      <div class="caixa-precadastro">
+        <h2>Ainda não?</h2>
+        <a href="cadastro.html">
+            <button>Clique aqui!</button>
+        </a>
+      </div>
+</body>
+</html>
